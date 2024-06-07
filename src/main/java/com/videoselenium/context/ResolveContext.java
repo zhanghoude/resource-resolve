@@ -13,7 +13,7 @@ public class ResolveContext {
     private ResolveStrategy resolveStrategy;
 
     public ResolveResult resolve(String url) {
-        WebDriver driver = ChromeSetup.setup(DriverEnum.CHROME, url);
+        WebDriver driver = ChromeSetup.setup(url);
 
         // 获取处理策略
         this.setResolveStrategy(LinkHandlerScannerContext.handle(driver.getCurrentUrl()));
