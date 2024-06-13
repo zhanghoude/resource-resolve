@@ -1,8 +1,12 @@
 package com.videoselenium.constant;
 
 /**
- * Constants with Paths
- * @author Sangam
+ * Constants类
+ *
+ * @author kirito
+ * @version 1.0
+ * @date 2024/5/14
+ * @since 1.0
  */
 public interface Constants {
 

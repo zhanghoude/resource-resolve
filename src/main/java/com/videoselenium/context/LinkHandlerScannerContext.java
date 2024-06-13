@@ -7,6 +7,14 @@ import org.reflections.Reflections;
 
 import java.util.Set;
 
+/**
+ * 责任链模式上下文处理类
+ *
+ * @author kirito
+ * @version 1.0
+ * @date 2024/5/14
+ * @since 1.0
+ */
 public class LinkHandlerScannerContext {
 
     public static ResolveStrategy handle(String url) {

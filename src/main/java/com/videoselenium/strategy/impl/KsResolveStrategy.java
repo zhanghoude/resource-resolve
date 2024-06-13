@@ -14,11 +14,24 @@ import java.time.Duration;
 import java.util.List;
 import java.util.Objects;
 
+/**
+ * 快手解析策略
+ *
+ * @author kirito
+ * @version 1.0
+ * @date 2024/5/14
+ * @since 1.0
+ */
 public class KsResolveStrategy implements ResolveStrategy {
-    @Override
-    public ResolveResult resolve(WebDriver driver) {
 
-        List<String> imgLinks = Lists.newArrayList();
+    @Override
+    public List<String> resolveImg(WebDriver driver) {
+
+        return Lists.newArrayList();
+    }
+
+    @Override
+    public List<String> resolveVideo(WebDriver driver) {
         List<String> videoLinks = Lists.newArrayList();
         List<WebElement> videoTags = driver.findElements(By.tagName("video"));
         videoTags.forEach(x -> {
@@ -30,7 +43,7 @@ public class KsResolveStrategy implements ResolveStrategy {
             }
         });
 
-        return new ResolveResult(imgLinks, videoLinks);
+        return videoLinks;
     }
 
 }

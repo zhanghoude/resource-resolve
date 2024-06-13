@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.selenium</groupId>
-    <artifactId>video-selenium</artifactId>
+    <artifactId>resource-resolve</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>video-selenium</name>
-    <description>video-selenium</description>
+    <name>resource-resolve</name>
+    <description>resource-resolve</description>
     <properties>
         <java.version>17</java.version>
     </properties>

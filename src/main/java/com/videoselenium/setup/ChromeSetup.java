@@ -5,6 +5,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+/**
+ * 调用ChromeDriver
+ *
+ * @author kirito
+ * @version 1.0
+ * @date 2024/5/14
+ * @since 1.0
+ */
 public class ChromeSetup {
 
     public static WebDriver setup(String url) {

@@ -3,8 +3,12 @@ package com.videoselenium.api;
 import java.io.Serializable;
 
 /**
- * 业务代码接口
+ * ResultCode
  *
+ * @author kirito
+ * @version 1.0
+ * @date 2024/5/14
+ * @since 1.0
  */
 public interface IResultCode extends Serializable {
 

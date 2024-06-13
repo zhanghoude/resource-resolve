@@ -8,6 +8,10 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * 业务代码枚举
  *
+ * @author kirito
+ * @version 1.0
+ * @date 2024/5/14
+ * @since 1.0
  */
 @Getter
 @AllArgsConstructor

@@ -5,6 +5,14 @@ import lombok.Data;
 import java.io.Serializable;
 import java.util.List;
 
+/**
+ * 响应结果包装
+ *
+ * @author kirito
+ * @version 1.0
+ * @date 2024/5/14
+ * @since 1.0
+ */
 @Data
 public class ResolveResult implements Serializable {
 

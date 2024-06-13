@@ -7,6 +7,14 @@ import com.videoselenium.strategy.ResolveStrategy;
 import lombok.Setter;
 import org.openqa.selenium.WebDriver;
 
+/**
+ * 策略调用上下文处理器
+ *
+ * @author kirito
+ * @version 1.0
+ * @date 2024/5/14
+ * @since 1.0
+ */
 @Setter
 public class ResolveContext {
 
