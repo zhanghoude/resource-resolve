@@ -5,6 +5,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
+
 import java.io.Serial;
 import java.io.Serializable;
 
@@ -50,6 +51,17 @@ public class R<T> implements Serializable {
         this.data = data;
         this.msg = msg;
         this.success = ResultCode.SUCCESS.code == code;
+    }
+
+    /**
+     * 返回R
+     *
+     * @param data 数据
+     * @param <T>  T 泛型标记
+     * @return R
+     */
+    public static <T> R<T> data(T data) {
+        return new R<>(ResultCode.SUCCESS, data, MsgConstant.DEFAULT_NULL_MESSAGE);
     }
 
     /**
