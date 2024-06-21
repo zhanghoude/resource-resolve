@@ -3,6 +3,20 @@
     <h3 align="center">resource-resolve</h3>
     <p align="center">
         resource-resolve是一个用来解析抖音、小红书等平台内容链接将视频和图片的链接提取出来，现已支持小红书、抖音、tiktok、ins等平台.
+        <br>
+        <br>
+        <a href="https://github.com/zhanghoude/resource-resolve/actions">
+            <img src="https://github.com/zhanghoude/resource-resolve/actions/workflows/maven.yml/badge.svg?branch=main" >
+        </a>
+        <a href="https://github.com/zhanghoude/resource-resolve/releases">
+            <img src="https://img.shields.io/github/release/zhanghoude/resource-resolve.svg" >
+        </a>
+        <a href="https://github.com/zhanghoude/resource-resolve/">
+            <img src="https://img.shields.io/github/stars/zhanghoude/resource-resolve" >
+        </a>
+        <a href="http://www.gnu.org/licenses/gpl-3.0.html">
+            <img src="https://img.shields.io/badge/license-Apache.svg" >
+        </a>
     </p>
 <p>
 
@@ -14,7 +28,7 @@
 
 ## Features
 - 1、使用ChromeDrive + Selenium实现自动化抓取，支持动态修改任务；
-- 2、使用策略模式 + 优化的责任链模式来进行更方便的管理解析；
+- 2、使用策略模式 + 责任链模式来进行更方便的管理解析；
 
 ## 现支持解析的平台
 - [ ] ins
