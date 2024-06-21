@@ -14,8 +14,8 @@
         <a href="https://github.com/zhanghoude/resource-resolve/">
             <img src="https://img.shields.io/github/stars/zhanghoude/resource-resolve" >
         </a>
-        <a href="http://www.gnu.org/licenses/gpl-3.0.html">
-            <img src="https://img.shields.io/badge/license-Apache.svg" >
+        <a href="https://www.apache.org/licenses/LICENSE-2.0">
+            <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" >
         </a>
     </p>
 <p>
